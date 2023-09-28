@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(72, 141, 71);
+  }
+  /* .SocialButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #995618;
+    color: rgb(35, 143, 31);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .SocialButton:hover {
+    background-color: #995618;
+    transform: scale(1.05);
+  } */
