@@ -1,13 +1,30 @@
 body {
     background-color: rgb(63, 116, 63);
   }
-  /* .SocialButton {
-    display: inline-block;
+  .button.is-primary {
+    background-color: #804311e3;
+    color: #fff; 
     padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .button.is-large {
+    font-size: 24px;
+  }
+  .button.is-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  .button-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .SocialButton {
+    display: inline-block;
+   
     background-color: #995618;
     color: rgb(35, 143, 31);
     border: none;
-    border-radius: 5px;
+    
     font-size: 18px;
     text-align: center;
     text-decoration: none;
@@ -18,4 +35,4 @@ body {
   .SocialButton:hover {
     background-color: #995618;
     transform: scale(1.05);
-  } */
+  }

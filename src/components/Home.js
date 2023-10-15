@@ -47,10 +47,13 @@ const openLink = (url) =>{
                 <button className="link-button is-dark">{link.name}</button>
                 </button>
               ))} */}
-              <button className="button is-primary is-large" onClick={()=>openLink("https://allmylinks.com/link/out?id=2jf0lz-1vg6i-1kupr78")}>Twitter</button>
+              <div className="button-container">
+                <button className="button is-primary is-large" onClick={()=>openLink("https://allmylinks.com/link/out?id=2jf0lz-1vg6i-1kupr78")}>Twitter</button>
               <button className="button is-primary is-large" onClick={()=>openLink("https://www.instagram.com/the_incognito_burrito_/")}>Instagram</button>
               <button className="button is-primary is-large" onClick={()=>openLink("https://www.twitch.tv/the_incognito_burrito")}>Twitch</button>
               <button className="button is-primary is-large" onClick={()=>openLink("https://allmylinks.com/link/out?id=1vswkfo-1vfhl-1fe1x3b")}>Discord</button>
+              </div>
+              
             </div>
           </div>
         </div>
