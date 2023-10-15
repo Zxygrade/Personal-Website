@@ -3,7 +3,7 @@ body {
   }
   .button.is-primary {
     background-color: #804311e3;
-    color: #fff; 
+    color: #faf7f7; 
     padding: 10px 20px;
     border-radius: 5px;
   }
@@ -16,7 +16,7 @@ body {
   }
   .button-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .SocialButton {
     display: inline-block;
