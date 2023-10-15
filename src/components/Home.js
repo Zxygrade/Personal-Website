@@ -17,6 +17,10 @@ function Home() {
       url: "https://allmylinks.com/link/out?id=1vswkfo-1vfhl-1fe1x3b",
     },
  ];
+
+//  const navigateTwiter = () =>{
+//   navigate("https://allmylinks.com/link/out?id=2jf0lz-1vg6i-1kupr78")
+//  }
   return (
     <div>
       <header></header>
@@ -27,8 +31,9 @@ function Home() {
             <h1 className="title">Find me!</h1>
             <div className="control">
               {socialLinks.map((link) => (
+                <button key={link.name} className="link-container">
                 <a
-                  key={link.name}
+                  
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -36,11 +41,14 @@ function Home() {
                 >
                   {link.name}
                 </a>
+                {/* <button className="link-button is-dark">{link.name}</button> */}
+                </button>
               ))}
             </div>
           </div>
         </div>
       </section>
+      {/* <button onClick={navigateTwiter}></button> */}
     </div>
     // <div>
     //     <h1>IncognitoBurrito</h1>
