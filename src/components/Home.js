@@ -21,6 +21,9 @@ function Home() {
 //  const navigateTwiter = () =>{
 //   navigate("https://allmylinks.com/link/out?id=2jf0lz-1vg6i-1kupr78")
 //  }
+const openLink = (url) =>{
+  window.open(url,"_blank")
+}
   return (
     <div>
       <header></header>
@@ -30,7 +33,7 @@ function Home() {
           <div className="container has-text-centered">
             <h1 className="title">Find me!</h1>
             <div className="control">
-              {socialLinks.map((link) => (
+              {/* {socialLinks.map((link) => (
                 <button key={link.name} className="link-container">
                 <a
                   
@@ -41,9 +44,13 @@ function Home() {
                 >
                   {link.name}
                 </a>
-                {/* <button className="link-button is-dark">{link.name}</button> */}
+                <button className="link-button is-dark">{link.name}</button>
                 </button>
-              ))}
+              ))} */}
+              <button className="button is-primary is-large" onClick={()=>openLink("https://allmylinks.com/link/out?id=2jf0lz-1vg6i-1kupr78")}>Twitter</button>
+              <button className="button is-primary is-large" onClick={()=>openLink("https://www.instagram.com/the_incognito_burrito_/")}>Instagram</button>
+              <button className="button is-primary is-large" onClick={()=>openLink("https://www.twitch.tv/the_incognito_burrito")}>Twitch</button>
+              <button className="button is-primary is-large" onClick={()=>openLink("https://allmylinks.com/link/out?id=1vswkfo-1vfhl-1fe1x3b")}>Discord</button>
             </div>
           </div>
         </div>
